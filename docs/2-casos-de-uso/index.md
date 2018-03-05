@@ -57,7 +57,7 @@
 | 4) Volta ao passo (2) do fluxo principal. |
 
 
-### 2.1. Caso de uso **REGISTRAR CHAMADO**
+### 2.3. Caso de uso **REGISTRAR CHAMADO**
 
 | Campo          | Informação        |
 |---|---|
@@ -80,6 +80,21 @@
 | 2) O membro do help desk preenche o formulário de cadastro do cliente. |
 | 3) O sistema registra os dados do cliente. |
 | 4) Volta ao passo (3) do fluxo principal. |
+
+### 2.4. Caso de uso **Filtrar Crimes Ocorridos no Newsletter**
+
+| Campo          | Informação        |
+|---|---|
+| Identificador: | UC02              |
+| Nome:          | Filtrar ocorrências |
+| Atores:        | Vitima do Ataque |
+| Sumário:       | Visualizar o Rank de ocorrências |
+
+| Fluxo Principal |
+|---|
+| 1) O usuário clica em uma das 3 opções: "Horário Perigosos", "Lugares mais Perigosos" e "Crimes mais Frequentes". |
+| 2) O sistema filtra todas as ocorrências registradas baseada na opção que o usuário clicou.                   |
+| 3) O sistema apresenta as informações da hora, local e tipo de crime em um rank com no máximo 10 posições. |
 
 **Instruções do professor**: As tabelas acima mostram um exemplo de especificação de **um único caso de uso**. Lembre-se de especificar cada um dos casos de uso.
 
