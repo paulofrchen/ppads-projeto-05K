@@ -10,4 +10,4 @@
 
 ## Requisitos não funcionais
 * Integração API de serviço de mapas do Google
-* Integração API de serviço de newsletter do Google
+* Integração API de serviço de newsletter  do Google
